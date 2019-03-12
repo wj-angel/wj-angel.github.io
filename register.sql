@@ -1,0 +1,24 @@
+﻿# Host: localhost  (Version: 5.5.53)
+# Date: 2019-03-04 16:23:38
+# Generator: MySQL-Front 5.3  (Build 4.234)
+
+/*!40101 SET NAMES utf8 */;
+
+#
+# Structure for table "register"
+#
+
+DROP TABLE IF EXISTS `register`;
+CREATE TABLE `register` (
+  `rphone` varchar(11) NOT NULL,
+  `rpass` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`rphone`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+#
+# Data for table "register"
+#
+
+/*!40000 ALTER TABLE `register` DISABLE KEYS */;
+INSERT INTO `register` VALUES ('13009876543','123abc'),('13109308424','123456'),('13211111111','111111'),('13233332222','123321qw'),('13322223333',''),('13523432343','123123'),('14209876789',''),('14323112332','123321'),('14323211232','123456'),('14343211234',''),('15002681234','123456'),('15002682563','123456'),('15002682567','123123'),('15002683456','123321'),('15002684567','123432'),('15009876543',''),('15323322332','123321rew'),('15343234321','123321'),('19009877890','123456'),('c','123123q');
+/*!40000 ALTER TABLE `register` ENABLE KEYS */;

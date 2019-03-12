@@ -1,0 +1,125 @@
+body, p, ul, ol, dl, dd, h1, h2, h3, h4, h5, h6, td, input, select, textarea, figure {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+img {
+  border: none;
+  display: block; }
+
+html, body {
+  height: 100%; }
+
+body {
+  overflow: hidden;
+  margin-left: 50px;
+  position: relative; }
+
+#bigBox {
+  overflow: hidden;
+  width: 450px;
+  height: 450px;
+  background-image: url(../img/78_78_1545877492278.png);
+  background-size: 450px 450px;
+  border: 1px solid #c2c3c3;
+  cursor: move; }
+  #bigBox #mirrorBox {
+    position: absolute;
+    width: 225px;
+    height: 225px;
+    background-color: white;
+    opacity: 0.5;
+    display: none;
+    border: 1px solid #c2c3c3; }
+  #bigBox #showBox {
+    position: absolute;
+    left: 460px;
+    top: 0px;
+    border: 1px solid #c2c3c3;
+    width: 400px;
+    height: 400px;
+    background-image: url(../img/78_78_1545877492278.png);
+    background-size: 1069px 1069px;
+    display: none; }
+
+.recommend {
+  width: 450px;
+  margin-top: 15px; }
+  .recommend .picScroll-left {
+    width: 1200px;
+    overflow: hidden;
+    position: relative; }
+    .recommend .picScroll-left .hd {
+      overflow: hidden;
+      height: 0px;
+      background: #f4f4f4;
+      padding: 0 10px; }
+      .recommend .picScroll-left .hd .prev, .recommend .picScroll-left .hd .next {
+        top: 8px;
+        z-index: 10;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        float: right;
+        margin-right: 5px;
+        margin-top: 10px;
+        overflow: hidden;
+        cursor: pointer;
+        background: url("../img/icon-header.png") no-repeat; }
+      .recommend .picScroll-left .hd .next {
+        background-position: -126px -24px;
+        left: 420px; }
+      .recommend .picScroll-left .hd .prev {
+        background-position: -364px -24px;
+        left: 0px; }
+      .recommend .picScroll-left .hd .next:hover {
+        background-position: -206px -24px; }
+      .recommend .picScroll-left .hd .prev:hover {
+        background-position: -285px -24px; }
+    .recommend .picScroll-left .bd {
+      margin-left: 45px; }
+      .recommend .picScroll-left .bd ul {
+        overflow: hidden;
+        zoom: 1; }
+        .recommend .picScroll-left .bd ul li {
+          width: 70px;
+          height: 68px;
+          float: left;
+          display: inline;
+          overflow: hidden;
+          text-align: center;
+          border: 1px solid transparent; }
+        .recommend .picScroll-left .bd ul li:nth-child(1) {
+          background: url(../img/78_78_1545877492278.png) no-repeat;
+          background-size: 60px 60px;
+          background-position: 5px 5px; }
+        .recommend .picScroll-left .bd ul li:nth-child(2) {
+          background: url(../img/78_78_1545877495826.png) no-repeat;
+          background-size: 60px 60px;
+          background-position: 5px 5px; }
+        .recommend .picScroll-left .bd ul li:nth-child(3) {
+          background: url(../img/78_78_1545877498102.jpg) no-repeat;
+          background-size: 60px 60px;
+          background-position: 5px 5px; }
+        .recommend .picScroll-left .bd ul li:nth-child(4) {
+          background: url(../img/428_428_1535358175728mp.jpg) no-repeat;
+          background-size: 60px 60px;
+          background-position: 5px 5px; }
+        .recommend .picScroll-left .bd ul li:nth-child(5) {
+          background: url(../img/78_78_1545877507789mp.png) no-repeat;
+          background-size: 60px 60px;
+          background-position: 5px 5px; }
+        .recommend .picScroll-left .bd ul li:nth-child(6) {
+          background: url(../img/428_428_1535358175728mp.jpg) no-repeat;
+          background-size: 60px 60px;
+          background-position: 5px 5px; }
+        .recommend .picScroll-left .bd ul li:nth-child(7) {
+          background: url(../img/428_428_1535358175728mp.jpg) no-repeat;
+          background-size: 60px 60px;
+          background-position: 5px 5px; }

@@ -1,0 +1,1167 @@
+body, p, ul, ol, dl, dd, h1, h2, h3, h4, h5, h6, td, input, select, textarea, figure {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+img {
+  border: none;
+  display: block; }
+
+html, body {
+  height: 100%; }
+
+.nav {
+  width: 100%; }
+  .nav .nav-text {
+    width: 1200px;
+    height: 30px;
+    margin: 0 auto; }
+    .nav .nav-text .nav-text-left {
+      float: left; }
+      .nav .nav-text .nav-text-left ul {
+        overflow: hidden; }
+        .nav .nav-text .nav-text-left ul li {
+          float: left; }
+          .nav .nav-text .nav-text-left ul li a {
+            float: left;
+            font-size: 12px;
+            color: #a4a4a4;
+            line-height: 30px;
+            margin-left: 6px;
+            margin-right: 8px; }
+          .nav .nav-text .nav-text-left ul li a:hover {
+            color: #ca151d; }
+          .nav .nav-text .nav-text-left ul li span {
+            float: left;
+            font-size: 10px;
+            color: #a4a4a4;
+            margin-top: 5px; }
+    .nav .nav-text .nav-text-right {
+      float: right; }
+      .nav .nav-text .nav-text-right ul {
+        overflow: hidden; }
+        .nav .nav-text .nav-text-right ul li {
+          float: left;
+          margin-left: 5px; }
+          .nav .nav-text .nav-text-right ul li .lione, .nav .nav-text .nav-text-right ul li .litwo {
+            overflow: hidden; }
+            .nav .nav-text .nav-text-right ul li .lione a, .nav .nav-text .nav-text-right ul li .litwo a {
+              float: left;
+              font-size: 12px;
+              line-height: 30px;
+              color: #a4a4a4;
+              margin-left: 10px; }
+            .nav .nav-text .nav-text-right ul li .lione a:hover, .nav .nav-text .nav-text-right ul li .litwo a:hover {
+              color: #ca151d; }
+          .nav .nav-text .nav-text-right ul li .litwo {
+            display: none; }
+          .nav .nav-text .nav-text-right ul li a {
+            float: left;
+            font-size: 12px;
+            line-height: 30px;
+            color: #a4a4a4;
+            margin-left: 10px; }
+          .nav .nav-text .nav-text-right ul li a:hover {
+            color: #ca151d; }
+
+.header {
+  width: 100%;
+  padding-top: 18px;
+  padding-bottom: 15px; }
+  .header .layout {
+    width: 1220px;
+    margin: 0 auto;
+    height: 41px; }
+    .header .layout .layout-left {
+      float: left; }
+      .header .layout .layout-left a {
+        float: left;
+        height: 50px; }
+        .header .layout .layout-left a img {
+          display: block;
+          margin-top: 13px;
+          height: 25px; }
+      .header .layout .layout-left span {
+        float: left;
+        font-size: 22px;
+        line-height: 50px;
+        margin-left: 26px;
+        color: #3a3a3a; }
+      .header .layout .layout-left .layout-left-two {
+        float: left;
+        height: 41px;
+        margin-left: 20px; }
+        .header .layout .layout-left .layout-left-two ul {
+          overflow: hidden; }
+          .header .layout .layout-left .layout-left-two ul li {
+            float: left;
+            margin-top: 7px;
+            margin-left: 18px;
+            padding-left: 7px;
+            padding-right: 7px; }
+            .header .layout .layout-left .layout-left-two ul li a {
+              display: block;
+              font-size: 16px;
+              color: #333333;
+              line-height: 24px; }
+          .header .layout .layout-left .layout-left-two ul li:hover {
+            border-bottom: 2px solid #ca151d; }
+            .header .layout .layout-left .layout-left-two ul li:hover a {
+              color: #ca151d; }
+          .header .layout .layout-left .layout-left-two ul li:nth-child(1) {
+            background: #ff8486;
+            border-radius: 20px; }
+            .header .layout .layout-left .layout-left-two ul li:nth-child(1) a {
+              color: white; }
+          .header .layout .layout-left .layout-left-two ul li:nth-child(1):hover {
+            border: none; }
+          .header .layout .layout-left .layout-left-two ul li:nth-child(2) {
+            background: #74c7ff;
+            border-radius: 20px; }
+            .header .layout .layout-left .layout-left-two ul li:nth-child(2) a {
+              color: white; }
+          .header .layout .layout-left .layout-left-two ul li:nth-child(2):hover {
+            border: none; }
+    .header .layout .layout-right {
+      float: right;
+      margin-right: 20px; }
+      .header .layout .layout-right .layout-right-top ul {
+        overflow: hidden; }
+        .header .layout .layout-right .layout-right-top ul li {
+          float: left;
+          margin-left: 10px; }
+          .header .layout .layout-right .layout-right-top ul li img {
+            float: left;
+            width: 30px;
+            height: 30xp; }
+          .header .layout .layout-right .layout-right-top ul li span {
+            float: left;
+            margin-top: 15px;
+            width: 69px;
+            height: 2px;
+            background: #d9d9d9; }
+      .header .layout .layout-right .layout-right-bottom ul {
+        overflow: hidden; }
+        .header .layout .layout-right .layout-right-bottom ul li {
+          float: left; }
+          .header .layout .layout-right .layout-right-bottom ul li label {
+            font-size: 12px;
+            color: #d9d9d9;
+            line-height: 12px;
+            font-weight: 600; }
+        .header .layout .layout-right .layout-right-bottom ul li:nth-child(1) label {
+          color: #ca141d; }
+        .header .layout .layout-right .layout-right-bottom ul li:nth-child(2) {
+          margin: 0px 105px 0px 105px; }
+
+.centerBox {
+  width: 100%;
+  padding-top: 10px;
+  background: #f5f5f5;
+  display: none; }
+  .centerBox .centerBox-top {
+    width: 1200px;
+    height: 48px;
+    background: #fffdee;
+    border: 1px solid #eace85;
+    margin: 0 auto;
+    margin-bottom: 20px; }
+    .centerBox .centerBox-top p {
+      overflow: hidden;
+      margin-left: 20px; }
+      .centerBox .centerBox-top p span {
+        float: left;
+        background: url(../img/car1.png) no-repeat;
+        width: 12px;
+        height: 12px;
+        margin-top: 18px;
+        margin-right: 6px; }
+      .centerBox .centerBox-top p b {
+        font-size: 12px;
+        line-height: 48px;
+        color: #d3141d;
+        float: left; }
+      .centerBox .centerBox-top p a {
+        float: left;
+        width: 70px;
+        cursor: pointer;
+        height: 30px;
+        text-align: center;
+        font-size: 12px;
+        line-height: 30px;
+        margin-top: 9px;
+        color: white;
+        background: #ca141d;
+        margin-left: 13px; }
+  .centerBox .centerBox-borrom {
+    width: 1200px;
+    height: 500px;
+    background: white;
+    margin: 0 auto; }
+    .centerBox .centerBox-borrom .centerBox-borrom-center {
+      width: 250px;
+      margin: 0 auto;
+      padding-top: 135px; }
+      .centerBox .centerBox-borrom .centerBox-borrom-center span {
+        display: block;
+        width: 100px;
+        height: 100px;
+        margin-left: 64px;
+        background: url(../img/icon-header.png) no-repeat;
+        background-position: 0px -166px; }
+      .centerBox .centerBox-borrom .centerBox-borrom-center label {
+        display: block;
+        font-size: 18px;
+        line-height: 60px;
+        color: #a4a4a4;
+        margin-top: 18px; }
+      .centerBox .centerBox-borrom .centerBox-borrom-center a {
+        display: block;
+        width: 172px;
+        text-align: center;
+        height: 46px;
+        margin-left: 28px;
+        background: #ca141d;
+        font-size: 16px;
+        line-height: 46px;
+        color: white; }
+
+.hotshopping {
+  width: 100%;
+  background: #f5f5f5;
+  padding-bottom: 60px;
+  display: none; }
+  .hotshopping .hot-shop {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 19px; }
+    .hotshopping .hot-shop h3 {
+      font-size: 18px;
+      color: #3a3a3a;
+      line-height: 39px; }
+    .hotshopping .hot-shop .recommend {
+      width: 1200px;
+      background: white;
+      margin: 0 auto; }
+      .hotshopping .hot-shop .recommend .picScroll-left {
+        width: 1200px;
+        overflow: hidden;
+        position: relative; }
+        .hotshopping .hot-shop .recommend .picScroll-left .hd {
+          overflow: hidden;
+          height: 0px;
+          background: #f4f4f4;
+          padding: 0 10px; }
+          .hotshopping .hot-shop .recommend .picScroll-left .hd .prev, .hotshopping .hot-shop .recommend .picScroll-left .hd .next {
+            z-index: 10;
+            position: absolute;
+            top: 20px;
+            width: 40px;
+            height: 178px;
+            float: right;
+            overflow: hidden;
+            cursor: pointer;
+            font-size: 18px;
+            line-height: 172px;
+            color: #b4b4b4;
+            text-align: center; }
+          .hotshopping .hot-shop .recommend .picScroll-left .hd .next {
+            right: 10px; }
+        .hotshopping .hot-shop .recommend .picScroll-left .bd {
+          padding: 20px 10px 18px;
+          /* padding:10px;   */ }
+          .hotshopping .hot-shop .recommend .picScroll-left .bd ul {
+            overflow: hidden; }
+            .hotshopping .hot-shop .recommend .picScroll-left .bd ul li {
+              width: 222px;
+              height: 200px;
+              float: left;
+              display: inline;
+              overflow: hidden;
+              text-align: center;
+              background: white; }
+              .hotshopping .hot-shop .recommend .picScroll-left .bd ul li .pic {
+                text-align: center; }
+                .hotshopping .hot-shop .recommend .picScroll-left .bd ul li .pic a img {
+                  display: block;
+                  width: 134px;
+                  height: 134px;
+                  margin-left: 44px; }
+                .hotshopping .hot-shop .recommend .picScroll-left .bd ul li .pic a p {
+                  width: 210px;
+                  height: 36px;
+                  padding: 0px 10px;
+                  font-size: 14px;
+                  line-height: 36px;
+                  color: #777;
+                  background: #f3f3f3;
+                  border-radius: 0 0 10px 10px; }
+              .hotshopping .hot-shop .recommend .picScroll-left .bd ul li .title {
+                line-height: 24px; }
+                .hotshopping .hot-shop .recommend .picScroll-left .bd ul li .title p {
+                  width: 160px;
+                  height: 40px;
+                  margin: 6px auto 0;
+                  font-size: 16px;
+                  color: #3a3a3a;
+                  line-height: 20px; }
+                .hotshopping .hot-shop .recommend .picScroll-left .bd ul li .title span {
+                  display: block;
+                  width: 222px;
+                  height: 20px;
+                  font-size: 14px;
+                  line-height: 14px;
+                  padding: 6px 0 0;
+                  color: #3a3a3a; }
+          .hotshopping .hot-shop .recommend .picScroll-left .bd .tempWrap {
+            padding: 0 35px !important; }
+
+.zongshangpin .shoppingCar {
+  width: 100%;
+  padding-top: 20px;
+  background: #f5f5f5; }
+  .zongshangpin .shoppingCar .shop-car {
+    width: 1200px;
+    height: 40px;
+    background: white;
+    margin: 0 auto; }
+    .zongshangpin .shoppingCar .shop-car .shop-car-chack {
+      margin-left: 40px;
+      padding: 13px 0px;
+      height: 14px; }
+      .zongshangpin .shoppingCar .shop-car .shop-car-chack ul {
+        overflow: hidden; }
+        .zongshangpin .shoppingCar .shop-car .shop-car-chack ul li {
+          float: left; }
+          .zongshangpin .shoppingCar .shop-car .shop-car-chack ul li span {
+            display: block;
+            border: 1px solid #a4a4a4;
+            width: 12px;
+            height: 12px;
+            font-size: 12px;
+            color: white;
+            line-height: 12px;
+            text-align: center;
+            cursor: pointer;
+            margin-right: 13px; }
+          .zongshangpin .shoppingCar .shop-car .shop-car-chack ul li label {
+            display: block;
+            font-size: 12px;
+            line-height: 14px;
+            color: #a4a4a4; }
+        .zongshangpin .shoppingCar .shop-car .shop-car-chack ul li:nth-child(2) {
+          margin-right: 98px; }
+        .zongshangpin .shoppingCar .shop-car .shop-car-chack ul li:nth-child(3) {
+          margin-right: 494px; }
+        .zongshangpin .shoppingCar .shop-car .shop-car-chack ul li:nth-child(4), .zongshangpin .shoppingCar .shop-car .shop-car-chack ul li:nth-child(5), .zongshangpin .shoppingCar .shop-car .shop-car-chack ul li:nth-child(6) {
+          margin-right: 105px; }
+  .zongshangpin .shoppingCar .shop-car-shang {
+    width: 1200px;
+    background: white;
+    margin: 0 auto;
+    margin-top: 10px; }
+    .zongshangpin .shoppingCar .shop-car-shang .shop-shang {
+      padding-left: 40px;
+      padding-right: 45px;
+      padding-top: 20px;
+      overflow: hidden; }
+      .zongshangpin .shoppingCar .shop-car-shang .shop-shang span {
+        float: left;
+        border: 1px solid #a4a4a4;
+        width: 12px;
+        height: 12px;
+        font-size: 12px;
+        color: white;
+        line-height: 12px;
+        text-align: center;
+        cursor: pointer;
+        margin-top: 45px; }
+      .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .shang-top ul {
+        overflow: hidden; }
+        .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .shang-top ul li {
+          float: left;
+          position: relative; }
+          .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .shang-top ul li img {
+            display: block;
+            width: 100px;
+            height: 100px;
+            margin-left: 15px;
+            cursor: pointer; }
+          .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .shang-top ul li label {
+            display: block;
+            width: 450px;
+            font-size: 14px;
+            color: #3a3a3a;
+            line-height: 21px;
+            margin-left: 20px; }
+          .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .shang-top ul li em {
+            display: block;
+            font-size: 13px;
+            color: #3a3a3a;
+            line-height: 13px;
+            margin-left: 50px;
+            margin-top: 5px;
+            font-style: normal; }
+          .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .shang-top ul li input {
+            display: block;
+            width: 41px;
+            height: 44px;
+            margin-top: 5px;
+            border: 1px solid #d6d6d6;
+            font-size: 14px;
+            line-height: 44px;
+            color: #00004f;
+            text-align: center;
+            margin-left: 88px; }
+          .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .shang-top ul li #jia, .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .shang-top ul li #jian {
+            display: block;
+            font-size: 16px;
+            width: 21px;
+            height: 23px;
+            position: absolute;
+            top: 0px;
+            text-align: center;
+            left: 130px;
+            font-weight: 600;
+            line-height: 20px;
+            margin-left: 0px;
+            color: #777777;
+            border-top: 1px solid #d6d6d6;
+            border-right: 1px solid #d6d6d6; }
+          .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .shang-top ul li #jian {
+            top: 21px;
+            color: #c4c4c4;
+            border-bottom: 1px solid #d6d6d6; }
+          .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .shang-top ul li b {
+            display: block;
+            font-size: 12px;
+            color: #ca141d;
+            line-height: 12px;
+            margin-left: 88px;
+            margin-top: 5px; }
+            .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .shang-top ul li b i {
+              display: block;
+              font-style: normal;
+              font-size: 13px;
+              color: #ca141d;
+              line-height: 13px; }
+          .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .shang-top ul li a {
+            display: block;
+            font-size: 12px;
+            color: #a4a4a4;
+            line-height: 12px;
+            margin-left: 84px;
+            margin-top: 5px; }
+      .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .fuwu {
+        overflow: hidden;
+        background: #f5f5f5;
+        padding-left: 20px;
+        margin-top: 20px;
+        padding-bottom: 14px; }
+        .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .fuwu label {
+          float: left;
+          font-size: 14px;
+          color: #3a3a3a;
+          line-height: 14px;
+          margin-top: 20px; }
+        .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .fuwu ul {
+          float: left;
+          margin-top: 10px;
+          margin-left: 72px;
+          padding: 0px 9px;
+          position: relative;
+          padding-bottom: 18px; }
+          .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .fuwu ul li {
+            margin-top: 8px;
+            overflow: hidden; }
+            .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .fuwu ul li span {
+              float: left;
+              width: 68px;
+              height: 18px;
+              border: 1px solid black;
+              border-radius: 2px;
+              font-size: 12px;
+              line-height: 18px;
+              color: black;
+              text-align: center;
+              margin-top: 0px; }
+            .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .fuwu ul li label {
+              float: left;
+              font-size: 12px;
+              color: #a4a4a4;
+              line-height: 18px;
+              margin-left: 4px;
+              margin-top: 0px; }
+            .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .fuwu ul li b {
+              float: left;
+              width: 12px;
+              height: 7px;
+              margin-left: 22px;
+              margin-top: 5px; }
+          .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .fuwu ul .enen {
+            display: none;
+            width: 222px;
+            height: 4px;
+            background: white;
+            position: absolute;
+            top: 56px;
+            left: 0px;
+            z-index: 10; }
+          .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .fuwu ul .xiang-fuwu {
+            display: none;
+            clear: both;
+            background: white;
+            overflow: hidden;
+            padding-bottom: 19px;
+            width: 708px;
+            border: 1px solid #d6d6d6;
+            padding-top: 22px;
+            margin-left: 100px;
+            position: absolute;
+            left: -101px;
+            top: 57px;
+            z-index: 9; }
+            .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .fuwu ul .xiang-fuwu ul {
+              overflow: hidden;
+              margin: 0px;
+              border: none; }
+              .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .fuwu ul .xiang-fuwu ul li {
+                float: left;
+                font-size: 12px; }
+                .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .fuwu ul .xiang-fuwu ul li p {
+                  font-size: 12px;
+                  color: #3a3a3a;
+                  line-height: 12px;
+                  margin-left: 10px;
+                  margin-top: -14px;
+                  margin-right: 12px; }
+                .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .fuwu ul .xiang-fuwu ul li span {
+                  float: left;
+                  border: 1px solid #a4a4a4;
+                  width: 12px;
+                  height: 12px;
+                  font-size: 12px;
+                  color: white;
+                  line-height: 12px;
+                  text-align: center;
+                  cursor: pointer; }
+                .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .fuwu ul .xiang-fuwu ul li a {
+                  float: left;
+                  font-size: 12px;
+                  color: #3a3a3a;
+                  line-height: 12px;
+                  margin-left: 10px; }
+                .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .fuwu ul .xiang-fuwu ul li a:hover {
+                  color: #ca141d; }
+                .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .fuwu ul .xiang-fuwu ul li b {
+                  float: left;
+                  font-size: 12px;
+                  color: #3a3a3a;
+                  line-height: 12px;
+                  width: 35px;
+                  height: 12px;
+                  margin: 0px; }
+                .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .fuwu ul .xiang-fuwu ul li .shan {
+                  text-decoration: line-through;
+                  margin-left: 15px; }
+                .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .fuwu ul .xiang-fuwu ul li .sh1 {
+                  margin-left: 0px; }
+                .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .fuwu ul .xiang-fuwu ul li em {
+                  float: left;
+                  width: 36px;
+                  height: 18px;
+                  background: #f19c9d;
+                  font-size: 12px;
+                  color: white;
+                  line-height: 18px;
+                  text-align: center;
+                  margin-left: 10px;
+                  font-style: normal; }
+              .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .fuwu ul .xiang-fuwu ul li:first-child {
+                list-style-type: disc;
+                list-style-position: inside;
+                margin-top: 5px; }
+              .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .fuwu ul .xiang-fuwu ul li:nth-child(2) {
+                margin-right: 155px; }
+              .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .fuwu ul .xiang-fuwu ul li:nth-child(4) {
+                margin-left: 82px; }
+        .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .fuwu ul:hover .enen {
+          display: block; }
+        .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .fuwu ul:hover .xiang-fuwu {
+          display: block; }
+        .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .fuwu .kong {
+          background: white;
+          height: 2px;
+          width: 1064px;
+          clear: both;
+          margin-left: -20px; }
+        .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .fuwu .peijian {
+          background: #f5f5f5;
+          overflow: hidden; }
+          .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .fuwu .peijian ul {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            margin-bottom: 8px; }
+            .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .fuwu .peijian ul li {
+              margin-top: 20px;
+              float: left; }
+              .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .fuwu .peijian ul li label {
+                font-size: 12px;
+                color: #3a3a3a;
+                line-height: 12px;
+                margin-top: 1px; }
+              .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .fuwu .peijian ul li img {
+                display: block;
+                width: 36px;
+                height: 36px;
+                margin-left: 86px;
+                margin-right: 20px;
+                cursor: pointer; }
+              .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .fuwu .peijian ul li p {
+                font-size: 12px;
+                color: #a4a4a4;
+                line-height: 12px;
+                cursor: pointer; }
+              .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .fuwu .peijian ul li span {
+                background: url(../img/car1.png) no-repeat;
+                padding-left: 13px;
+                margin-top: 10px;
+                display: block;
+                font-size: 12px;
+                width: 85px;
+                color: #ca141d;
+                border: none;
+                background-position: 0px 3px; }
+              .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .fuwu .peijian ul li b {
+                font-size: 12px;
+                color: #b5abbf;
+                line-height: 12px;
+                margin: 0;
+                margin-left: 410px;
+                width: 25px;
+                height: 12px; }
+              .zongshangpin .shoppingCar .shop-car-shang .shop-shang .shang-fuwu .fuwu .peijian ul li a {
+                display: block;
+                font-size: 12px;
+                color: #ca141d;
+                line-height: 12px;
+                margin-left: 235px; }
+      .zongshangpin .shoppingCar .shop-car-shang .shop-shang .ding {
+        position: absolute;
+        display: block;
+        top: 300px;
+        left: 163px;
+        width: 0px;
+        height: 0px;
+        border: 7px solid transparent;
+        border-bottom-color: #f5f5f5; }
+
+.zongshangpin .jiaruCar {
+  width: 100%;
+  background: #f5f5f5; }
+  .zongshangpin .jiaruCar .border-box {
+    width: 1200px;
+    overflow: hidden;
+    background: white;
+    margin: 0 auto;
+    padding-top: 22px;
+    overflow: hidden;
+    padding-bottom: 8px; }
+    .zongshangpin .jiaruCar .border-box .xiantiao {
+      width: 1200px;
+      border: 0.5px solid #cccccc; }
+    .zongshangpin .jiaruCar .border-box .la {
+      float: left;
+      margin-top: 20px;
+      margin-left: 69px; }
+      .zongshangpin .jiaruCar .border-box .la label {
+        font-size: 18px;
+        color: #3a3a3a;
+        line-height: 18px;
+        margin-right: 18px; }
+    .zongshangpin .jiaruCar .border-box .kuang {
+      float: right;
+      margin-top: -21px; }
+      .zongshangpin .jiaruCar .border-box .kuang ul {
+        width: 1060px;
+        height: 232px;
+        overflow-y: scroll; }
+        .zongshangpin .jiaruCar .border-box .kuang ul li {
+          float: left;
+          width: 290px;
+          height: 64px;
+          border: 1px solid #cccccc;
+          padding: 19px 20px;
+          margin-bottom: 12px; }
+          .zongshangpin .jiaruCar .border-box .kuang ul li img {
+            float: left;
+            width: 64px;
+            height: 64px; }
+          .zongshangpin .jiaruCar .border-box .kuang ul li p {
+            float: left;
+            width: 195px; }
+            .zongshangpin .jiaruCar .border-box .kuang ul li p label {
+              float: left;
+              font-size: 16px;
+              color: #3a3a3a;
+              line-height: 19px; }
+            .zongshangpin .jiaruCar .border-box .kuang ul li p span {
+              float: left;
+              font-size: 12px;
+              color: #ca141d;
+              line-height: 12px;
+              margin-top: 13px; }
+            .zongshangpin .jiaruCar .border-box .kuang ul li p b {
+              font-size: 12px;
+              color: #a4a4a4;
+              line-height: 12px;
+              float: left;
+              text-decoration: line-through;
+              margin-top: 13px;
+              margin-left: 12px;
+              font-weight: 100; }
+          .zongshangpin .jiaruCar .border-box .kuang ul li a {
+            font-size: 18px;
+            font-weight: 600;
+            width: 28px;
+            height: 28px;
+            line-height: 26px;
+            border: 1px solid #dedede;
+            float: left;
+            text-align: center;
+            margin-top: 35px;
+            color: black; }
+          .zongshangpin .jiaruCar .border-box .kuang ul li a:hover {
+            color: white;
+            background: #ca151e; }
+        .zongshangpin .jiaruCar .border-box .kuang ul li:nth-child(2), .zongshangpin .jiaruCar .border-box .kuang ul li:nth-child(5), .zongshangpin .jiaruCar .border-box .kuang ul li:nth-child(8) {
+          margin-left: 12px;
+          margin-right: 12px; }
+  .zongshangpin .jiaruCar .jiesuan {
+    height: 60px;
+    width: 1200px;
+    background: white;
+    margin: 0 auto;
+    margin-top: 10px; }
+    .zongshangpin .jiaruCar .jiesuan .jiesuan-quan {
+      overflow: hidden;
+      padding-top: 14px; }
+      .zongshangpin .jiaruCar .jiesuan .jiesuan-quan span {
+        float: left;
+        width: 14px;
+        height: 14px;
+        text-align: center;
+        line-height: 14px;
+        font-size: 14px;
+        color: white;
+        margin-top: 9px;
+        margin-left: 40px;
+        background: white; }
+      .zongshangpin .jiaruCar .jiesuan .jiesuan-quan label {
+        float: left;
+        font-size: 12px;
+        line-height: 12px;
+        color: #3a3a3a;
+        margin-left: 13px;
+        margin-top: 10px; }
+      .zongshangpin .jiaruCar .jiesuan .jiesuan-quan a {
+        float: left;
+        font-size: 12px;
+        color: #3a3a3a;
+        line-height: 12px;
+        margin-left: 20px;
+        margin-top: 10px; }
+      .zongshangpin .jiaruCar .jiesuan .jiesuan-quan .quan-ji {
+        margin-left: 678px;
+        float: left; }
+        .zongshangpin .jiaruCar .jiesuan .jiesuan-quan .quan-ji .zong {
+          overflow: hidden;
+          margin-bottom: 7px; }
+          .zongshangpin .jiaruCar .jiesuan .jiesuan-quan .quan-ji .zong p {
+            float: left;
+            font-size: 14px;
+            color: #3a3a3a;
+            line-height: 14px;
+            margin-left: 44px; }
+          .zongshangpin .jiaruCar .jiesuan .jiesuan-quan .quan-ji .zong b {
+            float: left;
+            font-size: 14px;
+            line-height: 14px;
+            color: #d3151e;
+            margin-left: 8px; }
+          .zongshangpin .jiaruCar .jiesuan .jiesuan-quan .quan-ji .zong em {
+            float: left; }
+            .zongshangpin .jiaruCar .jiesuan .jiesuan-quan .quan-ji .zong em img {
+              display: block;
+              width: 12px;
+              height: 12px;
+              margin-left: 6px; }
+        .zongshangpin .jiaruCar .jiesuan .jiesuan-quan .quan-ji .zong-xia p {
+          font-size: 12px;
+          color: #a4a4a4;
+          line-height: 12px;
+          position: relative; }
+          .zongshangpin .jiaruCar .jiesuan .jiesuan-quan .quan-ji .zong-xia p label {
+            font-size: 12px;
+            color: #ca151d;
+            font-weight: 600px;
+            margin-left: 8px;
+            margin-right: 5px;
+            position: absolute;
+            left: 32px;
+            top: -10px; }
+          .zongshangpin .jiaruCar .jiesuan .jiesuan-quan .quan-ji .zong-xia p i {
+            display: inline-block;
+            font-size: 12px;
+            color: #3a3a3a;
+            line-height: 12px;
+            margin-left: 6px;
+            font-style: normal; }
+      .zongshangpin .jiaruCar .jiesuan .jiesuan-quan .jiesuanA {
+        float: left; }
+        .zongshangpin .jiaruCar .jiesuan .jiesuan-quan .jiesuanA a {
+          display: block;
+          width: 180px;
+          height: 60px;
+          line-height: 60px;
+          text-align: center;
+          font-size: 18px;
+          color: white;
+          background: #ca151e;
+          margin-top: -14px;
+          margin-left: 35px; }
+
+.slogan-container {
+  background: #f0f0f0;
+  width: 100%;
+  min-width: 1200px; }
+  .slogan-container .slogan {
+    padding: 48px 0 48px;
+    width: 1200px;
+    margin: 0 auto; }
+    .slogan-container .slogan ul li {
+      display: table-cell;
+      font-size: 18px;
+      color: #333;
+      height: 40px;
+      text-align: center;
+      vertical-align: middle; }
+      .slogan-container .slogan ul li a {
+        text-decoration: none;
+        color: #3a3a3a; }
+        .slogan-container .slogan ul li a i {
+          display: inline-block;
+          vertical-align: middle;
+          width: 46px;
+          height: 46px;
+          margin-right: 6px; }
+    .slogan-container .slogan ul li:first-child {
+      padding-right: 120px; }
+      .slogan-container .slogan ul li:first-child a i {
+        background: url(../img/car2.png) no-repeat; }
+    .slogan-container .slogan ul li:nth-child(2) {
+      padding-right: 120px; }
+      .slogan-container .slogan ul li:nth-child(2) a i {
+        background: url(../img/car3.png) no-repeat; }
+    .slogan-container .slogan ul li:nth-child(3) {
+      padding-right: 110px; }
+      .slogan-container .slogan ul li:nth-child(3) a i {
+        background: url(../img/car4.png) no-repeat; }
+    .slogan-container .slogan ul li:last-child {
+      padding-right: 0px; }
+      .slogan-container .slogan ul li:last-child a i {
+        background: url(../img/car5.png) no-repeat; }
+
+.service-container {
+  background: #f0f0f0;
+  width: 100%;
+  min-width: 1200px; }
+  .service-container .service {
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 23px 0 24px;
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 20px; }
+    .service-container .service .service-l {
+      float: left;
+      width: 920px;
+      height: 155px;
+      padding-top: 5px;
+      overflow: hidden;
+      border-right: 1px solid #e5e5e5; }
+      .service-container .service .service-l dl {
+        float: left;
+        width: 16.66667%; }
+        .service-container .service .service-l dl dt {
+          font-size: 14px;
+          color: #3a3a3a; }
+          .service-container .service .service-l dl dt span {
+            display: block;
+            width: 22px;
+            height: 2px;
+            background: #a8a8a8;
+            margin-bottom: 16px; }
+          .service-container .service .service-l dl dt p {
+            font-size: 14px !important;
+            padding-bottom: 7px;
+            color: #333;
+            display: block;
+            border-left: 0;
+            padding-left: 0;
+            line-height: 1.5 !important;
+            margin-bottom: 0 !important; }
+        .service-container .service .service-l dl dd ol {
+          list-style: none; }
+          .service-container .service .service-l dl dd ol li a {
+            display: block;
+            font-size: 12px;
+            color: #777;
+            line-height: 22px; }
+          .service-container .service .service-l dl dd ol li a:hover {
+            color: #cc1f27; }
+    .service-container .service .s6 .relative {
+      position: relative; }
+      .service-container .service .s6 .relative b {
+        display: block;
+        width: 22px;
+        height: 2px;
+        background: #a8a8a8;
+        margin-bottom: 16px; }
+      .service-container .service .s6 .relative .button {
+        font-size: 14px;
+        position: absolute;
+        left: 65px;
+        bottom: 0px;
+        cursor: pointer; }
+  .service-container .relative .button .btn-prev {
+    float: left;
+    width: 14px;
+    height: 14px;
+    background: #cccccc;
+    text-align: center;
+    line-height: 12px;
+    font-size: 12px;
+    color: #fefefe;
+    margin-right: 6px;
+    margin-bottom: 3px; }
+  .service-container .relative .button .btn-next {
+    float: left;
+    width: 14px;
+    height: 14px;
+    background: #b3b3b3;
+    text-align: center;
+    line-height: 12px;
+    font-size: 12px;
+    color: #fefefe;
+    margin-bottom: 3px; }
+  .service-container .service-r {
+    float: left;
+    width: 279px;
+    min-height: 160px;
+    margin-top: 2px;
+    text-align: center; }
+    .service-container .service-r dl {
+      width: 279px; }
+      .service-container .service-r dl dt {
+        font-size: 14px;
+        color: #3a3a3a; }
+        .service-container .service-r dl dt p {
+          font-size: 24px !important;
+          padding: 0;
+          color: #cb242b;
+          font-weight: bold;
+          line-height: 24px; }
+      .service-container .service-r dl dd {
+        font-size: 14px;
+        color: #333; }
+        .service-container .service-r dl dd ol {
+          list-style: none; }
+          .service-container .service-r dl dd ol li {
+            width: 279px;
+            color: #777; }
+            .service-container .service-r dl dd ol li a {
+              display: block;
+              font-size: 14px;
+              color: #333;
+              line-height: 22px;
+              border: none;
+              width: 220px;
+              height: 22px;
+              margin-top: 5px; }
+        .service-container .service-r dl dd a {
+          color: #cb242b;
+          display: block;
+          width: 168px;
+          height: 32px;
+          padding: 0;
+          margin: 0 auto;
+          margin-top: 10px;
+          border: 1px solid #cb242b;
+          font-size: 14px;
+          line-height: 32px;
+          text-align: center;
+          cursor: pointer;
+          border-radius: 6px; }
+          .service-container .service-r dl dd a i {
+            display: inline-block;
+            height: 20px;
+            width: 20px;
+            margin-right: 6px;
+            position: relative;
+            top: 2px;
+            vertical-align: middle;
+            background: url(../img/banner5.jpg) no-repeat; }
+    .service-container .service-r .service-code {
+      float: left;
+      width: 250px;
+      margin-top: 26px;
+      margin-left: 40px; }
+      .service-container .service-r .service-code h2 {
+        font-size: 14px;
+        color: #333;
+        float: left;
+        font-weight: 100; }
+      .service-container .service-r .service-code ul {
+        float: left;
+        margin-left: 3px; }
+        .service-container .service-r .service-code ul li {
+          width: 24px;
+          height: 24px;
+          margin-right: 11px;
+          position: relative;
+          float: left;
+          background: url(../img/icon-header.png) no-repeat; }
+        .service-container .service-r .service-code ul li:nth-child(1) {
+          background-position: -355px -171px; }
+        .service-container .service-r .service-code ul li:nth-child(2) {
+          background-position: -403px -171px; }
+        .service-container .service-r .service-code ul li:nth-child(3) {
+          background-position: -451px -171px; }
+        .service-container .service-r .service-code ul li:nth-child(4) {
+          background-position: -499px -171px; }
+
+.footer-container {
+  background: #e6e6e6;
+  width: 100%;
+  min-width: 1200px; }
+  .footer-container .footer {
+    padding: 22px 0 22px;
+    width: 1200px;
+    margin: 0 auto;
+    color: #666;
+    line-height: 1.5; }
+    .footer-container .footer .footer-warrant-area {
+      text-align: left;
+      color: #a4a4a4;
+      line-height: 20px;
+      overflow: hidden; }
+      .footer-container .footer .footer-warrant-area .footer-warrant-logo {
+        float: left;
+        width: 82px;
+        height: 20px;
+        padding: 3px 20px 0 0; }
+        .footer-container .footer .footer-warrant-area .footer-warrant-logo a {
+          display: block; }
+          .footer-container .footer .footer-warrant-area .footer-warrant-logo a img {
+            display: block;
+            vertical-align: top;
+            width: 82px;
+            height: 20px; }
+      .footer-container .footer .footer-warrant-area .fl {
+        float: left;
+        font-size: 12px;
+        color: #a4a4a4; }
+        .footer-container .footer .footer-warrant-area .fl ul {
+          margin-top: 3px;
+          margin-bottom: 4px;
+          overflow: hidden; }
+          .footer-container .footer .footer-warrant-area .fl ul li {
+            float: left;
+            line-height: 1;
+            padding-right: 6px;
+            border-right: 1px solid #d3d3d3;
+            margin-right: 6px; }
+            .footer-container .footer .footer-warrant-area .fl ul li a {
+              display: block;
+              font-size: 12px;
+              line-height: 12px;
+              color: #777; }
+        .footer-container .footer .footer-warrant-area .fl a {
+          font-size: 12px;
+          line-height: 12px;
+          color: #a4a4a4; }
+        .footer-container .footer .footer-warrant-area .fl a:hover {
+          color: #cc1f27; }
+      .footer-container .footer .footer-warrant-area .fr {
+        margin-top: 2px;
+        float: right; }
+        .footer-container .footer .footer-warrant-area .fr a {
+          display: block;
+          width: 70px;
+          margin-left: 17px;
+          height: 24px; }
+          .footer-container .footer .footer-warrant-area .fr a img {
+            vertical-align: top;
+            width: 70px;
+            height: 24px; }
+
+.hungBar {
+  position: fixed;
+  right: 6px;
+  bottom: 20px;
+  height: 166px;
+  z-index: 500;
+  background: #fefefe; }
+  .hungBar .hungBar-content {
+    width: 38px;
+    padding: 1px 0; }
+    .hungBar .hungBar-content a {
+      width: 38px;
+      height: 41px;
+      display: block;
+      position: relative;
+      background-color: rgba(255, 255, 255, 0.9);
+      background: url(../img/icon-header.png) no-repeat; }
+      .hungBar .hungBar-content a span {
+        position: absolute;
+        background: #ca141d;
+        color: #fff;
+        height: 18px;
+        min-width: 14px;
+        padding: 0 2px;
+        border-radius: 10px;
+        text-align: center;
+        line-height: 18px;
+        left: 19px;
+        font-size: 12px;
+        top: 2px; }
+      .hungBar .hungBar-content a i {
+        position: absolute;
+        display: none;
+        width: 76px;
+        height: 36px;
+        line-height: 36px;
+        text-align: center;
+        color: #777;
+        background: #fff;
+        border-radius: 2px;
+        box-shadow: 0 2px 36px 0 rgba(0, 0, 0, 0.07);
+        left: -84px;
+        top: 0;
+        font-style: normal; }
+    .hungBar .hungBar-content a:nth-child(1) {
+      background-position: -215px -122px; }
+    .hungBar .hungBar-content a:nth-child(2) {
+      background-position: -291px -122px; }
+    .hungBar .hungBar-content a:nth-child(3) {
+      background-position: -367px -122px; }
+    .hungBar .hungBar-content a:nth-child(4) {
+      background-position: -443px -122px; }
